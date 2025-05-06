@@ -1,5 +1,32 @@
-bin/
-obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+# Build results
+**/bin/
+**/obj/
+
+# NuGet
+packages/
+*.nupkg
+
+# Rider/JetBrains
+.idea/
+*.iml
+_ReSharper.Caches/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ASP.NET static library files (if using LibMan/NPM for wwwroot)
+**/wwwroot/lib/
+
+# Optional: Docker build files
+**/obj/Docker/
